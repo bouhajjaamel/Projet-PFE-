@@ -1,8 +1,9 @@
 <!-- Footer -->
 
+<img src="<?php echo get_bloginfo('template_directory') ?>/imag/ruban.gif" alt="" width="100%" height="200px">
 
-<footer class="page-footer font-small "  style="background-color:background: rgb(198,140,7);
-background: linear-gradient(0deg, rgba(198,140,7,1) 0%, rgba(242,235,220,1) 100%);">
+<footer class="page-footer font-small "  style="background-color:background: rgb(190,139,53);
+background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%)";>
 
     <div class="container">
     

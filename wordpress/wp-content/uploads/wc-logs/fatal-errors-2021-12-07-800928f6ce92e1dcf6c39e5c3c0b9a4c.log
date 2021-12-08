@@ -1,0 +1,9 @@
+2021-12-07T22:08:45+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /opt/lampp/htdocs/projet1000/wordpress/wp-includes/class-wp-hook.php on line 305 and defined in /opt/lampp/htdocs/projet1000/wordpress/wp-content/plugins/elementor/includes/template-library/sources/local.php:1046
+Stack trace:
+#0 /opt/lampp/htdocs/projet1000/wordpress/wp-includes/class-wp-hook.php(305): Elementor\TemplateLibrary\Source_Local->on_save_post(440, Object(stdClass))
+#1 /opt/lampp/htdocs/projet1000/wordpress/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/projet1000/wordpress/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/projet1000/wordpress/wp-includes/post.php(4468): do_action('save_post', 440, Object(stdClass), true)
+#4 /opt/lampp/htdocs/projet1000/wordpress/wp-includes/post.php(4570): wp_insert_post(Array, false, true)
+#5 /opt/lampp/htdocs/projet1000/wordpres in /opt/lampp/htdocs/projet1000/wordpress/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1046
+

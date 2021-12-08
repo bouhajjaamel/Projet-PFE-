@@ -171,6 +171,27 @@ hr{border-style: double solid;}
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
-.svg{margin: 30px;px;}
 
-a { color: inherit; } 
+
+a { color:#000;
+margin: 30px; } 
+.d-md-flex  .icon{width: 100px;}
+
+.icon.bi-person-lines-fill{
+  color:rgb(3, 3, 3);
+  margin: 30px;
+  width: 30px;
+}
+.bi-cart-fill{ color:rgb(3, 3, 3);
+  margin: 30px;
+  width: 30px;}
+
+.navbar>.container, .navbar>.container-fluid {
+  padding: 0px;}
+
+.navbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #212125;
