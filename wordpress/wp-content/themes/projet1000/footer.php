@@ -2,8 +2,8 @@
 
 <img src="<?php echo get_bloginfo('template_directory') ?>/imag/ruban.gif" alt="" width="100%" height="200px">
 
-<footer class="page-footer font-small "  style="background-color:background: rgb(190,139,53);
-background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%)";>
+<footer class="page-footer font-small text-light "  style="background-color:background: rgb(45,42,38);
+background: linear-gradient(0deg, rgba(45,42,38,1) 0%, rgba(33,33,32,1) 100%)";>
 
     <div class="container">
     
@@ -16,12 +16,9 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
         <div class="d-md-flex bd-highlight">
           <h5> inscrire gratuite</h5>
           <div class="col-md-6 col-lg-6 text-right text-md-right">
-         <a href="connexion.php">  <button type="button" class="btn btn-outline-warning my-2 my-sm-0"> S'INSCRIRE</button>
+         <a href="http://localhost/projet1000/wordpress/inscription/">  <button type="button" class="btn btn-outline-warning my-2 my-sm-0 bg-warning"> S'INSCRIRE</button>
 
 </div></div>
-    <!--<li class="list-inline-item">
-      <a href="#!" class="btn btn-danger btn-rounded">S'INSCRIRE</a>
-    </li>-->
   
   </div> 
       
@@ -72,7 +69,7 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
       <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
         <!-- Content -->
-        <a href="http://localhost/new-projet/"><img src="<?php echo get_bloginfo('template_directory') ?>/imag/logo.jpeg" alt="" width="120px" height="90px"></a>
+        <a href="http://localhost/projet1000/wordpress/"><img src="<?php echo get_bloginfo('template_directory') ?>/imag/logo.jpeg" alt="" width="110px" height="70px"></a>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Marque de style déco intérnational, s’efforce depuis 1989 de porter un autre angle de vue sur les tendances du design et de la décoration modérne.</p>
 
@@ -83,19 +80,16 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Products</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <h6 class="text-uppercase font-weight-bold text-warning">Products</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
         <p>
-          <a class="dark-grey-text" href="http://localhost/new-projet/">Home</a>
+          <a class="dark-grey text-light " href="http://localhost/projet1000/wordpress/">Home</a>
+</p>
+        <p>
+          <a class="dark-grey text-light" href="http://localhost/projet1000/wordpress/luminaire/">Limunaire</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="http://localhost/new-projet/decoration-interieure/">Décoration Intérieure</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="http://localhost/new-projet/limunaire/">Limunaire</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="http://localhost/new-projet/jardin/">Jardin</a>
+          <a class="dark-grey text-light" href="http://localhost/projet1000/wordpress/2021/11/20/jardin/">Jardin</a>
 
         </p>
 
@@ -104,21 +98,13 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Services</h6>
+        <h6 class="text-uppercase font-weight-bold text-warning">Services</h6>
 
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a class="dark-grey-text" href="#!">Livraison & Retour</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Paiement sécurisé</a>
-        </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Conditions générales de vente</a>
-        </p>
-        
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
+          <p class="dark-grey-text">Livraison & Retour</p>
+          <p class="dark-grey-text" >Paiement sécurisé</p>
+          <p class="dark-grey-text">Conditions générales de vente</p>
 
       </div>
       <!-- Grid column -->
@@ -127,8 +113,8 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <h6 class="text-uppercase font-weight-bold text-warning">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
         <p>
           <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
         <p>
@@ -148,7 +134,7 @@ background: linear-gradient(0deg, rgba(190,139,53,1) 0%, rgba(191,153,67,1) 100%
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
+  <div class="footer-copyright text-center text-black-50 py-3 bg-light">© 2021 Copyright:
     <a class="dark-grey-text" href="https://simplon.co/"> Simplon.com</a>
   </div>
   <!-- Copyright -->

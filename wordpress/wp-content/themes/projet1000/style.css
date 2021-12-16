@@ -1,21 +1,21 @@
 /*
 Theme Name: style deco
-Theme URI: http://localhost/new-projet/wp-admin/themes.php?theme=projet-fin
-Author: TutoWP
+Theme URI: http://localhost/projet1000/wordpress/
+Author: AMEL BOUHAJJA
 Author URI: https://www.tutowp.fr/tutowp
 Description: Thème WordPress basé sur Bootstrap
 Version: 1.0
 */
 h5{color:rgb(0, 0, 0);
   margin: 12px;;}
-hr{border-style: double solid;}
+
 .bd-highlight .btn-outline-warning {
   color: #fff;
   border-color: #0c0c0c;
   margin: 12px;
   background-color: rgb(31, 30, 29);
 }
-.container{padding-top: 20px;}
+.container{padding-top: 0px;}
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #ffffffef;
@@ -41,11 +41,8 @@ hr{border-style: double solid;}
   .display-4 {
     font-size: 2.5rem;
   }
-  @media (min-width: 768px) {
-    .display-4 {
-      font-size: 3rem;
-    }
-  }
+  
+ 
   
   .nav-scroller {
     position: relative;
@@ -146,8 +143,6 @@ hr{border-style: double solid;}
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
-
-  
   /*connexion*/
   .styled {border: 0;
     line-height: 2.5;
@@ -172,20 +167,19 @@ hr{border-style: double solid;}
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-
-a { color:#000;
-margin: 30px; } 
-.d-md-flex  .icon{width: 100px;}
-
-.icon.bi-person-lines-fill{
-  color:rgb(3, 3, 3);
-  margin: 30px;
-  width: 30px;
+.bi-person-lines-fill{
+  color:rgb(209, 152, 28);
+  ;
 }
-.bi-cart-fill{ color:rgb(3, 3, 3);
-  margin: 30px;
-  width: 30px;}
+#dropdownMenuButton{margin-right: 30px;
+  padding: 0px;
+  }
+  hr{border-style: double solid;}
+#cart{color:rgb(238, 182, 77);
+margin-right: 40px;}
+.dropdown-menu{background-color: #ca9c1d;}
 
+.img{margin-left: 20px;}
 .navbar>.container, .navbar>.container-fluid {
   padding: 0px;}
 
@@ -194,4 +188,8 @@ margin: 30px; }
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    background-color: #212125;
+    background-color: #ffffff;}
+.fa-search{color:#ca9c1d}
+h5{color:#f7f2e7}
+hr{color: #ca9c1d;}
+#cart{margin-right: 50px;
